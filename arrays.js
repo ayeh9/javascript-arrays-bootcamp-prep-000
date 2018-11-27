@@ -5,5 +5,6 @@ function addElementToBeginningOfArray(m,n){
 }
 
 function destructivelyAddElementToBeginningOfArray(m,n){
-  return m.unshift(n);
+  m.unshift(n);
+  return m;
 }
